@@ -4,7 +4,7 @@
 #Also autodefault has values which will, well, default automatically without prompt, useful for variables you dont use often, like MOD
 #After you answer all prompts, it will ask for init or add or meshify(about that later). IF YOU DIDN'T CREATE FILES MANUALLY OR WITH INIT USE INIT FIRST. Then you can add parts with ease using add.
 #Also it will ask "meshes", you just first answer mesh YOU WANT TO COLOR, if multiple use ; same with exclude mesh, obtainable from ModelData as usual
-#After you answer the exclude meshes, you may want to use meshify option when you restart, it will do same stuff but allows you to add material to mesh
+#After you answer the exclude meshes, you may want to use meshify option when you restart, it will do same stuff but does +KSP_TEXTURE_SET only
 paths_path = "paths.txt"
 with open(paths_path, "r") as file:
     paths = file.read().split("\n")
