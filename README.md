@@ -11,4 +11,6 @@ Every file .txt is customizable,
 * autodefault.txt is self explanotary
 
 # HOWTO USE
+Install source code, then drop the folder(make sure right folder) into your project, recommendally inside folder where you keep all three configs(It will create cfgs ABOVE its own folder, customizable in paths)
+
 Install latest python, open cmd inside folder, and type ```python main.py```
