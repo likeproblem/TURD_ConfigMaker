@@ -3,7 +3,7 @@
     @name = $MOD$_$PART$_Default
     @MATERIAL
     {
-		$mesh$
+	$mesh$
 		
         texture = _MainTex,$TEXTURE$
         texture = _BumpMap,$TEXTURE_BUMPMAP$
