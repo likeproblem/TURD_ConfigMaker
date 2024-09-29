@@ -3,7 +3,7 @@
     @name = $MOD$_$PART$_Paint
     @MATERIAL
     {
-		$mesh$
+	$mesh$
 	
         vector = _DiffuseNorm,$NORM_DIFFUSE$
         vector = _MetalNorm,$NORM_METAL$
